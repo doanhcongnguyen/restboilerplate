@@ -33,11 +33,6 @@ public class UserServiceImpl implements UserService {
         return mapper.toDto(list);
     }
 
-    public Page<UserDto> getUsers(Pageable pageable) {
-        Page<UserEntity> page = repository.findAllPageable(pageable);
-        return page.map(mapper::toDto);
-    }
-
     @Override
     public UserDto getUserByUsername(String username) {
         Optional<UserEntity> user = repository.findOneByUsername(username);

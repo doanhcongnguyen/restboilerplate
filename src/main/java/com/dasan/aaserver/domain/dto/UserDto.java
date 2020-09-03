@@ -15,6 +15,4 @@ public class UserDto {
     private String email;
     private String language;
     private String telephone;
-    private Timestamp createdTime;
-    private Timestamp updatedTime;
 }
