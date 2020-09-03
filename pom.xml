@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.dcn</groupId>
-	<artifactId>aaserver</artifactId>
+	<artifactId>restboilerplate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>aaserver</name>
-	<description>Authentication - Authorization</description>
+	<name>restboilerplate</name>
+	<description>Rest Boilerplate</description>
 
 	<properties>
 		<java.version>1.8</java.version>
